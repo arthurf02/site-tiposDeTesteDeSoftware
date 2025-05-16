@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    background-color: aqua;
+    justify-items: center;
+}
+
+.main-content{
+    text-align: center;
+}
+
+#funcionais{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 300px 300px 300px;
+}
+
+#funcionais h3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#funcionais :nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
