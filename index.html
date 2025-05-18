@@ -1,265 +1,355 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testes de Software</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Desenvolvimento de Software</h1>
         <h2>Tipos de Testes de Software</h2>
     </header>
     <div class="main-content">
-        <div id="funcionais">
+        <div id="grid1">
             <h3>Testes Funcionais</h3>
             <div class="content-card">
-                <p>Testes de Unidade</p>
+                <h4>Testes de Unidade</h4>
                 <p>
-                    Testes de unidade são o processo em que você testa a menor unidade 
+                    Testes de unidade são o processo em que você testa a menor unidade
                     funcional de código.
-                    Ele é um bloco de código que verifica a precisão de um bloco menor 
-                    e isolado de código de aplicação, normalmente uma função ou um método. 
-                    Ele é projetado para verificar se o bloco de código é executado conforme o esperado, 
-                    de acordo com a lógica teórica do desenvolvedor por detrás dele. O teste de unidade 
-                    só é capaz de interagir com o bloco de código por meio de entradas e saídas declaradas 
+                    Ele é um bloco de código que verifica a precisão de um bloco menor
+                    e isolado de código de aplicação, normalmente uma função ou um método.
+                    Ele é projetado para verificar se o bloco de código é executado conforme o esperado,
+                    de acordo com a lógica teórica do desenvolvedor por detrás dele. O teste de unidade
+                    só é capaz de interagir com o bloco de código por meio de entradas e saídas declaradas
                     (verdadeiras ou falsas) capturadas.
                 </p>
             </div>
             <div class="content-card">
-                <p>Testes de Integração</p>
+                <h4>Testes de Integração</h4>
                 <p>
-                    Teste de integração é uma etapa do processo de desenvolvimento de software 
-                    em que módulos ou componentes são combinados e testados em grupo. Esse tipo 
-                    de teste visa verificar a eficiência e a segurança da comunicação entre sistemas. 
+                    Teste de integração é uma etapa do processo de desenvolvimento de software
+                    em que módulos ou componentes são combinados e testados em grupo. Esse tipo
+                    de teste visa verificar a eficiência e a segurança da comunicação entre sistemas.
                     Essa etapa é essencial para garantir que o software funcione sem erros de integração.
-                    O teste de integração é geralmente realizado em fases, começando com os módulos mais 
-                    simples e progredindo para os módulos mais complexos. Além disso, ele pode ser realizado 
-                    de forma manual ou automatizada e deve ser feito de forma colaborativa entre desenvolvedores, 
-                    testadores e engenheiros de software. Eles podem ser classificados em duas categorias: vertical 
-                    e horizontal. O teste vertical verifica a interação entre os componentes de um mesmo módulo ou 
-                    camada, enquanto o teste horizontal testa a interação entre diferentes módulos ou camadas do sistema.
+                    O teste de integração é geralmente realizado em fases, começando com os módulos mais
+                    simples e progredindo para os módulos mais complexos. Além disso, ele pode ser realizado
+                    de forma manual ou automatizada e deve ser feito de forma colaborativa entre desenvolvedores,
+                    testadores e engenheiros de software. Eles podem ser classificados em duas categorias: vertical
+                    e horizontal. O teste vertical verifica a interação entre os componentes de um mesmo módulo ou
+                    camada, enquanto o teste horizontal testa a interação entre diferentes módulos ou camadas do
+                    sistema.
                 </p>
-            </div>
-            <div class="content-card">
-                <div class="aceitacao-card">
-                    <p>Testes de Aceitação</p>
-                    <p>
-                        Teste de Aceitação, também conhecido como User Acceptance Testing (UAT), é uma fase crítica no processo 
-                        de desenvolvimento de software, pois serve como a última etapa de teste antes do software ser entregue 
-                        ao usuário final. É nesse momento que se verifica se o sistema cumpre com os requisitos de negócios e se 
-                        está pronto para ser operado em um ambiente de produção. Existem 5 tipos de teste de aceitação:
-                    </p>
-                </div>
-                <div class="aceitacao-card">
-                    <p>Teste de Aceitação do Usuário (UAT - User Acceptance Testing)</p>
-                    <p>
-                        É o tipo mais comum de teste de aceitação, no qual os usuários finais testam o software para verificar se ele 
-                        cumpre suas expectativas e necessidades. O UAT é crucial para garantir que o software seja intuitivo, fácil de 
-                        usar e eficaz em resolver os problemas para os quais foi projetado.
-                    </p>
-                </div>
-                <div class="aceitacao-card">
-                    <p>Teste de Aceitação Operacional (OAT - Operational Acceptance Testing)</p>
-                    <p>
-                        Este tipo de teste foca na avaliação do software em seu ambiente operacional, verificando se ele está pronto para 
-                        ser colocado em produção. Isso inclui testar a segurança, a compatibilidade, a instalação, a configuração e os 
-                        procedimentos de backup do sistema.
-                    </p>
-                </div>
-                <div class="aceitacao-card">
-                    <p>Teste de Aceitação por Contrato (CAT - Contract Acceptance Testing)</p>
-                    <p>
-                        Realizado para garantir que todas as especificações e requisitos definidos em um contrato ou acordo de nível de 
-                        serviço (SLA - Service Level Agreement) sejam atendidos. O CAT é importante para confirmar que as obrigações 
-                        legais e técnicas entre fornecedor e cliente sejam cumpridas.
-                    </p>
-                </div>
-                <div class="aceitacao-card">
-                    <p>Teste de Aceitação Regulamentar (RAT - Regulatory Acceptance Testing)</p>
-                    <p>
-                        Esse tipo de teste verifica se o software atende às normas e regulamentos específicos do setor em que será 
-                        utilizado. É essencial para software utilizado em áreas como saúde, finanças e serviços públicos, onde a 
-                        conformidade com as regulamentações é mandatória.
-                    </p>
-                </div>
-                <div class="aceitacao-card">
-                    <p>Teste de Aceitação Alfa e Beta</p>
-                    <p>
-                        São realizados com usuários reais em ambientes reais. O teste Alfa é conduzido em um ambiente controlado, 
-                        ainda dentro da organização desenvolvedora, mas por usuários que não fazem parte da equipe de desenvolvimento. 
-                        Já o teste Beta é uma liberação pública limitada, com o objetivo de obter feedback do mercado antes do lançamento oficial.
-                    </p>
-                </div>
-            </div>
-            <div class="content-card">
-                <p>Teste de Usabilidade</p>
-                <p>
-                    O teste de usabilidade é uma metodologia crucial no desenvolvimento de produtos digitais, focada em avaliar a eficiência e a experiência do usuário. Por meio desse processo, usuários reais são convidados a interagir com o produto, enquanto observadores qualificados registram suas ações, comportamentos e feedbacks.
-                    Esse método proporciona insights valiosos sobre a facilidade de uso, a navegabilidade e a satisfação do usuário. Assim, as empresas podem identificar pontos de melhoria, eliminar obstáculos e aprimorar a interface, garantindo uma experiência otimizada para os usuários e impulsionando o sucesso do produto no mercado digital.
-                </p>
-            </div>
-            <div class="content-card">
-                <div class="regressao-card">
-                    <p>Teste de Regressão</p>
-                    <p>
-                        O teste de regressão é uma técnica de teste de software que visa verificar se alterações recentes no código, como novas funcionalidades, correções de bugs ou modificações, não afetaram adversamente o comportamento existente do software. O objetivo principal é garantir que as atualizações no software não introduzam novos defeitos em partes do sistema que anteriormente funcionavam corretamente.
-                        Essa prática é crucial para manter a qualidade e a estabilidade do software ao longo do tempo, especialmente em ambientes de desenvolvimento ágil, onde as mudanças são frequentes e rápidas. O teste de regressão pode ser realizado manualmente, mas devido à sua natureza repetitiva e ao volume de trabalho envolvido, frequentemente é automatizado para aumentar a eficiência e a confiabilidade dos testes.
-                        Existem 6 tipos de testes de regressão:
-                    </p>
-                </div>
-                <div class="regressao-card">
-                    <p>Teste de Regressão Completo</p>
-                    <p>
-                        Envolve a reexecução de todos os testes de regressão existentes no conjunto de testes. É o método mais abrangente, garantindo que todas as partes do sistema sejam verificadas após modificações. Contudo, pode ser bastante demorado e caro, especialmente em projetos grandes e complexos.
-                    </p>
-                </div>
-                <div class="regressao-card">
-                    <p>Teste de Regressão Seletivo</p>
-                    <p>
-                        Nesta abordagem, apenas um subconjunto de testes é escolhido para ser reexecutado. Esses testes são selecionados com base em sua relevância para as mudanças feitas no software. Isso pode incluir testes que cobrem a funcionalidade alterada, testes para funcionalidades intimamente relacionadas, ou ambos. Esta é uma forma eficiente de realizar testes de regressão, economizando tempo e recursos.
-                    </p>
-                </div>
-                <div class="regressao-card">
-                    <p>Teste de Regressão por Priorização</p>
-                    <p>
-                        Os testes são priorizados com base em vários critérios, como risco, importância da funcionalidade, ou frequência de falhas passadas. Testes com maior prioridade são executados primeiro. Isso ajuda a identificar os defeitos mais críticos mais cedo no processo de teste.
-                    </p>
-                </div>
-                <div class="regressao-card">
-                    <p>Teste de Regressão de Área Quente (Hotfix)</p>
-                    <p>
-                        Este tipo de teste de regressão foca em áreas do software que são frequentemente sujeitas a mudanças ou que tiveram problemas no passado. Testes nessas áreas "quentes" são realizados com mais frequência para garantir a estabilidade.
-                    </p>
-                </div>
-                <div class="regressao-card">
-                    <p>Teste de Regressão Baseado em Componentes</p>
-                    <p>
-                        Concentra-se em testar componentes específicos do sistema que foram modificados. Esse tipo de teste é útil quando as alterações no software são limitadas a componentes específicos, reduzindo o escopo dos testes necessários.
-                    </p>
-                </div>
-                <div class="regressao-card">
-                    <p>Teste de Regressão Incremental</p>
-                    <p>
-                        Visa testar as alterações em um contexto incremental, ou seja, testa apenas as funcionalidades que foram adicionadas ou modificadas desde a última iteração de teste. Isso ajuda a reduzir o escopo dos testes a cada ciclo de desenvolvimento, tornando o processo mais gerenciável.
-                    </p>
-                </div>
             </div>
         </div>
-        <div id="nao-funcionais">
-            <h3>Testes não funcionais</h3>
+        <div id="grid2">
             <div class="content-card">
-                <div class="desempenho-card">
-                    <p>Teste de Desempenho</p>
-                    <p>
-                        O teste de performance é um processo essencial no desenvolvimento de software que visa avaliar a velocidade, 
-                        capacidade de resposta e estabilidade de um sistema sob diversas condições de carga. Esses testes são realizados 
-                        para assegurar que uma aplicação ou sistema pode operar de maneira eficiente e estável quando submetido a 
-                        diferentes níveis de uso, desde condições normais até situações de carga extrema. Através de simulações, os testes 
-                        de performance medem o tempo de resposta do sistema, o uso de recursos como CPU e memória, e a taxa de transferência 
-                        de dados, identificando possíveis gargalos e pontos de falha antes que o software seja colocado em produção. Existem
-                        6 tipos de teste de desempenho:
-                    </p>
-                </div>
-                <div class="desempenho-card">
-                    <p>Teste de Carga (Load Testing)</p>
-                    <p>
-                        O teste de carga verifica como um sistema se comporta sob a carga esperada de usuários. Este teste ajuda a determinar 
-                        a capacidade do sistema para lidar com um número determinado de usuários simultâneos e transações dentro de um 
-                        período de tempo específico. Por exemplo, um site de comércio eletrônico pode usar testes de carga para simular 
-                        o tráfego durante uma grande promoção, garantindo que a plataforma permaneça responsiva e funcional.
-                    </p>
-                </div>
-                <div class="desempenho-card">
-                    <p>Teste de Estresse (Stress Testing)</p>
-                    <p>
-                        O teste de estresse submete o sistema a condições extremas, além do uso normal, para identificar os pontos 
-                        de falha. O objetivo é avaliar como o sistema se comporta sob cargas muito altas e se consegue recuperar-se 
-                        após situações de estresse. Este tipo de teste é útil para identificar os limites do sistema e verificar 
-                        se ele pode continuar operando corretamente após um pico de uso.
-                    </p>
-                </div>
-                <div class="desempenho-card">
-                    <p>Teste de Picos (Spike Testing)</p>
-                    <p>
-                        O teste de picos é uma variação do teste de estresse e avalia a capacidade do sistema de lidar com aumentos 
-                        repentinos e extremos na carga. Por exemplo, pode simular um grande número de acessos simultâneos após a 
-                        publicação de uma notícia importante em um site de notícias. O objetivo é garantir que o sistema pode lidar 
-                        com esses picos sem degradação significativa de desempenho.
-                    </p>
-                </div>
-                <div class="desempenho-card">
-                    <p>Teste de Endurance (Endurance Testing)</p>
-                    <p>
-                        Também conhecido como teste de duração ou teste de soak, este tipo de teste avalia a estabilidade e 
-                        o desempenho do sistema sob carga normal por um período prolongado. Ele é projetado para detectar 
-                        problemas como vazamento de memória e degradação do desempenho ao longo do tempo. É particularmente 
-                        útil para garantir que o sistema possa operar de forma confiável em longos períodos de uso contínuo.
-                    </p>
-                </div>
-                <div class="desempenho-card">
-                    <p>Teste de Volume (Volume Testing)</p>
-                    <p>
-                        O teste de volume verifica como o sistema lida com grandes volumes de dados. Isso envolve não apenas 
-                        o processamento, mas também o armazenamento e a transmissão de grandes quantidades de registros. 
-                        É útil para sistemas como bancos de dados e aplicações de big data, onde é crucial garantir que 
-                        o sistema pode gerenciar eficientemente grandes volumes de informações.
-                    </p>
-                </div>
-                <div class="desempenho-card">
-                    <p>Teste de Escalabilidade (Scalability Testing)</p>
-                    <p>
-                        Os testes de escalabilidade avaliam a capacidade do sistema de crescer e se adaptar a um aumento 
-                        no número de usuários, volume de dados e transações. Isso pode incluir a adição de mais recursos 
-                        de hardware (escalabilidade vertical) ou a distribuição da carga de trabalho em várias máquinas 
-                        (escalabilidade horizontal). O objetivo é garantir que o sistema possa expandir de forma 
-                        eficiente sem perder desempenho.
-                    </p>
-                </div>
+                <h4>Testes de Aceitação</h4>
+                <p>
+                    Teste de Aceitação, também conhecido como User Acceptance Testing (UAT), é uma fase crítica no
+                    processo
+                    de desenvolvimento de software, pois serve como a última etapa de teste antes do software ser
+                    entregue
+                    ao usuário final. É nesse momento que se verifica se o sistema cumpre com os requisitos de negócios
+                    e se
+                    está pronto para ser operado em um ambiente de produção. Existem 5 tipos de teste de aceitação:
+                </p>
             </div>
             <div class="content-card">
-                <div class="segurança-card">
-                    <p>Testes de Segurança</p>
-                    <p>
-                        O teste de segurança é uma prática essencial para garantir a proteção de dados e informações em sistemas, 
-                        aplicativos e redes. Consiste na avaliação de possíveis vulnerabilidades e pontos de falha que possam ser 
-                        explorados por invasores e hackers mal-intencionados, para comprometer a integridade, disponibilidade e 
-                        confidencialidade dos dados. Existem 5 tipos de testes de segurança:
-                    </p>
-                </div>
-                <div class="segurança-card">
-                    <p>Teste de Penetração (Penetration Testing)</p>
-                    <p>
-                        O teste de penetração, também conhecido como "pentest", é um teste que simula um ataque real ao sistema ou aplicativo, visando identificar vulnerabilidades e pontos de falha que possam ser explorados por invasores. Esse teste é realizado por profissionais especializados em segurança da informação e pode ser realizado em diferentes níveis de complexidade.
-                    </p>
-                </div>
-                <div class="segurança-card">
-                    <p>Teste de Vulnerabilidade (Vulnerability Testing)</p>
-                    <p>
-                        É um teste que identifica as vulnerabilidades presentes no sistema ou aplicativo, sem necessariamente explorá-las. Esse tipo de teste é realizado por ferramentas automatizadas ou por profissionais especializados em segurança da informação.
-                    </p>
-                </div>
-                <div class="segurança-card">
-                    <p>Teste de Análise de Código (Code Review)</p>
-                    <p>
-                        Consiste na revisão do código-fonte do sistema ou aplicativo, a fim de identificar vulnerabilidades e falhas de segurança presentes no código. Esse tipo de teste é realizado por profissionais especializados em segurança da informação e pode ser realizado de forma manual ou automatizada.
-                    </p>
-                </div>
-                <div class="segurança-card">
-                    <p>Teste de Segurança de Redes (Network Security Testing)</p>
-                    <p>
-                        Avalia a segurança da rede de computadores, identificando possíveis vulnerabilidades e pontos de falha que possam ser explorados por invasores. Esse tipo de teste pode ser realizado por ferramentas automatizadas ou por profissionais especializados em segurança da informação.
-                    </p>
-                </div>
-                <div class="segurança-card">
-                    <p>Teste de Configuração (Configuration Testing)</p>
-                    <p>
-                        O teste de configuração é um teste que analisa  as configurações de segurança do sistema ou aplicativo, identificando possíveis vulnerabilidades e pontos de falha que possam ser explorados por invasores. Esse tipo de teste pode ser realizado por ferramentas automatizadas ou por profissionais especializados em segurança da informação.
-                    </p>
-                </div>
+                <h4>Teste de Aceitação do Usuário (UAT - User Acceptance Testing)</h4>
+                <p>
+                    É o tipo mais comum de teste de aceitação, no qual os usuários finais testam o software para
+                    verificar se ele
+                    cumpre suas expectativas e necessidades. O UAT é crucial para garantir que o software seja
+                    intuitivo, fácil de
+                    usar e eficaz em resolver os problemas para os quais foi projetado.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Aceitação Operacional (OAT - Operational Acceptance Testing)</h4>
+                <p>
+                    Este tipo de teste foca na avaliação do software em seu ambiente operacional, verificando se ele
+                    está pronto para
+                    ser colocado em produção. Isso inclui testar a segurança, a compatibilidade, a instalação, a
+                    configuração e os
+                    procedimentos de backup do sistema.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Aceitação por Contrato (CAT - Contract Acceptance Testing)</h4>
+                <p>
+                    Realizado para garantir que todas as especificações e requisitos definidos em um contrato ou acordo
+                    de nível de
+                    serviço (SLA - Service Level Agreement) sejam atendidos. O CAT é importante para confirmar que as
+                    obrigações
+                    legais e técnicas entre fornecedor e cliente sejam cumpridas.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Aceitação Regulamentar (RAT - Regulatory Acceptance Testing)</h4>
+                <p>
+                    Esse tipo de teste verifica se o software atende às normas e regulamentos específicos do setor em
+                    que será
+                    utilizado. É essencial para software utilizado em áreas como saúde, finanças e serviços públicos,
+                    onde a
+                    conformidade com as regulamentações é mandatória.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Aceitação Alfa e Beta</h4>
+                <p>
+                    São realizados com usuários reais em ambientes reais. O teste Alfa é conduzido em um ambiente
+                    controlado,
+                    ainda dentro da organização desenvolvedora, mas por usuários que não fazem parte da equipe de
+                    desenvolvimento.
+                    Já o teste Beta é uma liberação pública limitada, com o objetivo de obter feedback do mercado antes
+                    do lançamento oficial.
+                </p>
+            </div>
+        </div>
+        <div id="usabilidade-card">
+            <div>
+                <h4>Teste de Usabilidade</h4>
+                <p>
+                    O teste de usabilidade é uma metodologia crucial no desenvolvimento de produtos digitais, focada em
+                    avaliar a eficiência e a experiência do usuário. Por meio desse processo, usuários reais são
+                    convidados a interagir com o produto, enquanto observadores qualificados registram suas ações,
+                    comportamentos e feedbacks.
+                    Esse método proporciona insights valiosos sobre a facilidade de uso, a navegabilidade e a satisfação
+                    do usuário. Assim, as empresas podem identificar pontos de melhoria, eliminar obstáculos e aprimorar
+                    a interface, garantindo uma experiência otimizada para os usuários e impulsionando o sucesso do
+                    produto no mercado digital.
+                </p>
+            </div>
+        </div>
+        <div id="grid3">
+            <div class="content-card">
+                <h4>Teste de Regressão</h4>
+                <p>
+                    O teste de regressão é uma técnica de teste de software que visa verificar se alterações
+                    recentes no código, como novas funcionalidades, correções de bugs ou modificações, não afetaram
+                    adversamente o comportamento existente do software. O objetivo principal é garantir que as
+                    atualizações no software não introduzam novos defeitos em partes do sistema que anteriormente
+                    funcionavam corretamente.
+                    Essa prática é crucial para manter a qualidade e a estabilidade do software ao longo do tempo,
+                    especialmente em ambientes de desenvolvimento ágil, onde as mudanças são frequentes e rápidas. O
+                    teste de regressão pode ser realizado manualmente, mas devido à sua natureza repetitiva e ao
+                    volume de trabalho envolvido, frequentemente é automatizado para aumentar a eficiência e a
+                    confiabilidade dos testes.
+                    Existem 6 tipos de testes de regressão:
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Regressão Completo</h4>
+                <p>
+                    Envolve a reexecução de todos os testes de regressão existentes no conjunto de testes. É o
+                    método mais abrangente, garantindo que todas as partes do sistema sejam verificadas após
+                    modificações. Contudo, pode ser bastante demorado e caro, especialmente em projetos grandes e
+                    complexos.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Regressão Seletivo</h4>
+                <p>
+                    Nesta abordagem, apenas um subconjunto de testes é escolhido para ser reexecutado. Esses testes
+                    são selecionados com base em sua relevância para as mudanças feitas no software. Isso pode
+                    incluir testes que cobrem a funcionalidade alterada, testes para funcionalidades intimamente
+                    relacionadas, ou ambos. Esta é uma forma eficiente de realizar testes de regressão, economizando
+                    tempo e recursos.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Regressão por Priorização</h4>
+                <p>
+                    Os testes são priorizados com base em vários critérios, como risco, importância da
+                    funcionalidade, ou frequência de falhas passadas. Testes com maior prioridade são executados
+                    primeiro. Isso ajuda a identificar os defeitos mais críticos mais cedo no processo de teste.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Regressão de Área Quente (Hotfix)</h4>
+                <p>
+                    Este tipo de teste de regressão foca em áreas do software que são frequentemente sujeitas a
+                    mudanças ou que tiveram problemas no passado. Testes nessas áreas "quentes" são realizados com
+                    mais frequência para garantir a estabilidade.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Regressão Baseado em Componentes</h4>
+                <p>
+                    Concentra-se em testar componentes específicos do sistema que foram modificados. Esse tipo de
+                    teste é útil quando as alterações no software são limitadas a componentes específicos, reduzindo
+                    o escopo dos testes necessários.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Regressão Incremental</h4>
+                <p>
+                    Visa testar as alterações em um contexto incremental, ou seja, testa apenas as funcionalidades
+                    que foram adicionadas ou modificadas desde a última iteração de teste. Isso ajuda a reduzir o
+                    escopo dos testes a cada ciclo de desenvolvimento, tornando o processo mais gerenciável.
+                </p>
+            </div>
+        </div>
+        <div id="grid4">
+            <h3>Testes não funcionais</h3>
+            <div class="content-card">
+                <h4>Teste de Desempenho</h4>
+                <p>
+                    O teste de performance é um processo essencial no desenvolvimento de software que visa avaliar a
+                    velocidade,
+                    capacidade de resposta e estabilidade de um sistema sob diversas condições de carga. Esses testes
+                    são realizados
+                    para assegurar que uma aplicação ou sistema pode operar de maneira eficiente e estável quando
+                    submetido a
+                    diferentes níveis de uso, desde condições normais até situações de carga extrema. Através de
+                    simulações, os testes
+                    de performance medem o tempo de resposta do sistema, o uso de recursos como CPU e memória, e a taxa
+                    de transferência
+                    de dados, identificando possíveis gargalos e pontos de falha antes que o software seja colocado em
+                    produção. Existem
+                    6 tipos de teste de desempenho:
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Carga (Load Testing)</h4>
+                <p>
+                    O teste de carga verifica como um sistema se comporta sob a carga esperada de usuários. Este teste
+                    ajuda a determinar
+                    a capacidade do sistema para lidar com um número determinado de usuários simultâneos e transações
+                    dentro de um
+                    período de tempo específico. Por exemplo, um site de comércio eletrônico pode usar testes de carga
+                    para simular
+                    o tráfego durante uma grande promoção, garantindo que a plataforma permaneça responsiva e funcional.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Estresse (Stress Testing)</h4>
+                <p>
+                    O teste de estresse submete o sistema a condições extremas, além do uso normal, para identificar os
+                    pontos
+                    de falha. O objetivo é avaliar como o sistema se comporta sob cargas muito altas e se consegue
+                    recuperar-se
+                    após situações de estresse. Este tipo de teste é útil para identificar os limites do sistema e
+                    verificar
+                    se ele pode continuar operando corretamente após um pico de uso.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Picos (Spike Testing)</h4>
+                <p>
+                    O teste de picos é uma variação do teste de estresse e avalia a capacidade do sistema de lidar com
+                    aumentos
+                    repentinos e extremos na carga. Por exemplo, pode simular um grande número de acessos simultâneos
+                    após a
+                    publicação de uma notícia importante em um site de notícias. O objetivo é garantir que o sistema
+                    pode lidar
+                    com esses picos sem degradação significativa de desempenho.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Endurance (Endurance Testing)</h4>
+                <p>
+                    Também conhecido como teste de duração ou teste de soak, este tipo de teste avalia a estabilidade e
+                    o desempenho do sistema sob carga normal por um período prolongado. Ele é projetado para detectar
+                    problemas como vazamento de memória e degradação do desempenho ao longo do tempo. É particularmente
+                    útil para garantir que o sistema possa operar de forma confiável em longos períodos de uso contínuo.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Volume (Volume Testing)</h4>
+                <p>
+                    O teste de volume verifica como o sistema lida com grandes volumes de dados. Isso envolve não apenas
+                    o processamento, mas também o armazenamento e a transmissão de grandes quantidades de registros.
+                    É útil para sistemas como bancos de dados e aplicações de big data, onde é crucial garantir que
+                    o sistema pode gerenciar eficientemente grandes volumes de informações.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Escalabilidade (Scalability Testing)</h4>
+                <p>
+                    Os testes de escalabilidade avaliam a capacidade do sistema de crescer e se adaptar a um aumento
+                    no número de usuários, volume de dados e transações. Isso pode incluir a adição de mais recursos
+                    de hardware (escalabilidade vertical) ou a distribuição da carga de trabalho em várias máquinas
+                    (escalabilidade horizontal). O objetivo é garantir que o sistema possa expandir de forma
+                    eficiente sem perder desempenho.
+                </p>
+            </div>
+        </div>
+        <div id="grid5">
+            <div class="content-card">
+                <h4>Testes de Segurança</h4>
+                <p>
+                    O teste de segurança é uma prática essencial para garantir a proteção de dados e informações em
+                    sistemas,
+                    aplicativos e redes. Consiste na avaliação de possíveis vulnerabilidades e pontos de falha que
+                    possam
+                    ser
+                    explorados por invasores e hackers mal-intencionados, para comprometer a integridade,
+                    disponibilidade e
+                    confidencialidade dos dados. Existem 5 tipos de testes de segurança:
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Penetração (Penetration Testing)</h4>
+                <p>
+                    O teste de penetração, também conhecido como "pentest", é um teste que simula um ataque real ao
+                    sistema
+                    ou aplicativo, visando identificar vulnerabilidades e pontos de falha que possam ser explorados por
+                    invasores. Esse teste é realizado por profissionais especializados em segurança da informação e pode
+                    ser
+                    realizado em diferentes níveis de complexidade.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Vulnerabilidade (Vulnerability Testing)</h4>
+                <p>
+                    É um teste que identifica as vulnerabilidades presentes no sistema ou aplicativo, sem
+                    necessariamente
+                    explorá-las. Esse tipo de teste é realizado por ferramentas automatizadas ou por profissionais
+                    especializados em segurança da informação.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Análise de Código (Code Review)</h4>
+                <p>
+                    Consiste na revisão do código-fonte do sistema ou aplicativo, a fim de identificar vulnerabilidades
+                    e
+                    falhas de segurança presentes no código. Esse tipo de teste é realizado por profissionais
+                    especializados
+                    em segurança da informação e pode ser realizado de forma manual ou automatizada.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Segurança de Redes (Network Security Testing)</h4>
+                <p>
+                    Avalia a segurança da rede de computadores, identificando possíveis vulnerabilidades e pontos de
+                    falha
+                    que possam ser explorados por invasores. Esse tipo de teste pode ser realizado por ferramentas
+                    automatizadas ou por profissionais especializados em segurança da informação.
+                </p>
+            </div>
+            <div class="content-card">
+                <h4>Teste de Configuração (Configuration Testing)</h4>
+                <p>
+                    O teste de configuração é um teste que analisa as configurações de segurança do sistema ou
+                    aplicativo,
+                    identificando possíveis vulnerabilidades e pontos de falha que possam ser explorados por invasores.
+                    Esse
+                    tipo de teste pode ser realizado por ferramentas automatizadas ou por profissionais especializados
+                    em
+                    segurança da informação.
+                </p>
             </div>
         </div>
     </div>
 </body>
+
 </html>
