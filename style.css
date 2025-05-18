@@ -88,14 +88,14 @@ p{
     padding: 20px;
 }
 
-#grid2 :nth-child(5){
+#grid2 :nth-child(5), #grid5 :nth-child(5){
     grid-column-start: 1;
     grid-column-end: 3;
     width: 260px;
     grid-row: 3;
 }
 
-#grid2 :nth-child(6){
+#grid2 :nth-child(6), #grid5 :nth-child(6){
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row: 3;
