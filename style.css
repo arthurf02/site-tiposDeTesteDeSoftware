@@ -19,7 +19,7 @@ header{
 h3{
     font-size: 20pt;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     padding-bottom: 10px;
 }
 
@@ -72,7 +72,7 @@ p{
     padding-top: 20px;
 }
 
-#grid2 :first-child, #grid3 :first-child{
+#grid2 :first-child, #grid3 :first-child, #grid4 :nth-child(2), #grid5 :first-child{
     grid-column-start: 1;
     grid-column-end: 4;
     width: 100%;
@@ -104,7 +104,7 @@ p{
 
 #usabilidade-card{
     background-color: azure;
-    width: 100%;
+    width: 97%;
     justify-items: center;
     padding: 20px;
 }
@@ -126,6 +126,44 @@ p{
 }
 
 #grid3 .content-card{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    height: 80%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#grid4{
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 50px 200px 500px 450px;
+    column-gap: 60px;
+    background-color: azure;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#grid4 .content-card{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 80%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#grid5{
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px 400px 400px;
+    column-gap: 60px;
+    background-color: aqua;
+    width: 100%;
+    padding-top: 30px;
+}
+
+#grid5 .content-card{
     display: flex;
     flex-direction: column;
     background-color: azure;
