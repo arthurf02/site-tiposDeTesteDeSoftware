@@ -7,13 +7,12 @@
 
 header{
     background-color: aqua;
-    justify-items: center;
+    text-align: center;
     font-size: 20pt;
 }
 
 .main-content{
     text-align: center;
-    justify-items: center;
 }
 
 h3{
@@ -103,10 +102,12 @@ p{
 }
 
 #usabilidade-card{
+    display: flex;
     background-color: azure;
-    width: 97%;
-    justify-items: center;
-    padding: 20px;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
 }
 
 #usabilidade-card div{
