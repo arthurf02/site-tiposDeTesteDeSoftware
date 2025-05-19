@@ -13,9 +13,17 @@ header{
 
 .main-content{
     text-align: center;
+    align-items: center;
 }
 
 h3{
+    font-size: 20pt;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-bottom: 10px;
+}
+
+#grid4 h3{
     font-size: 20pt;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -40,7 +48,7 @@ p{
 #grid1{
     grid-template-columns: 500px 500px;
     grid-template-rows: 60px 350px;
-    column-gap: 60px;
+    column-gap: 30px;
     background-color: azure;
     width: 100%;
     padding-bottom: 30px;
